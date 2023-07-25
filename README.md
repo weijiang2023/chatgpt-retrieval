@@ -1,8 +1,6 @@
-# chatgpt-retrieval
-
-Simple script to use ChatGPT on your own files.
-
-Here's the [YouTube Video](https://youtu.be/9AXP7tCI9PI).
+# 算法妈妈垂类大模型生态
+## 简介
+* 以最高效方式为企业构筑垂类大模型
 
 ## Installation
 
@@ -15,6 +13,12 @@ Modify `constants.py.default` to use your own [OpenAI API key](https://platform.
 Place your own data into `data/data.txt`.
 
 ## Example usage
+Test reading `data/selection/wei.20230701/01/data.html` file
+```
+> python chatgpt.py "how much is the Jewelry Box"
+Your dog's name is Sunny.
+```
+
 Test reading `data/data.txt` file.
 ```
 > python chatgpt.py "what is my dog's name"
